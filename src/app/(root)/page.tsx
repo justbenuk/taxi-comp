@@ -1,5 +1,9 @@
+import PageContainer from "@/components/global/page-container";
+
 export default function Home() {
   return (
-    <div>this is the home page</div>
+    <>
+      <PageContainer>This is the main section</PageContainer>
+    </>
   );
 }
